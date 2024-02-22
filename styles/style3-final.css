@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITIES */
+.header-dark-blue { color: hsl(218, 44%, 22%); }
+
+.p-light-grey { color: hsl(220, 15%, 55%); }
+
+.bg-light { background-color: hsl(212, 45%, 89%); }
+
+body {
+  height: 100dvh;
+  font-family: "Outfit";
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr;
+}
+
+.widget {
+  background-color: #fff;
+  max-width: 300px;
+  border-radius: 1.2rem;
+}
+
+.widget img {
+  max-width: 100%;
+  padding: 1em;
+  border-radius: 1.7em;
+}
+
+.widget h2 {
+  font-size: 21px;
+  line-height: 1.3em;
+  padding: 5px 16px;
+}
+
+.widget p {
+  font-size: 15px;
+  padding: 8px 20px 36px 20px;
+  line-height: 1.2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  align-self: end;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }

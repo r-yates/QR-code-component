@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITIES */
+.header-dark-blue {
+  color: hsl(218, 44%, 22%);
+}
+
+.p-light-grey {
+  color: hsl(220, 15%, 55%);
+}
+
+
+body {
+  font-family: "Outfit";
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+}
+
+.widget-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  background-color: #fff;
+  max-width: 300px;
+  border-radius: 1.2rem;
+}
+
+.widget img {
+  max-width: 100%;
+  padding: 1em;
+  border-radius: 1.7em;
+}
+
+.widget h2 {
+  font-size: 21px;
+  line-height: 1.3em;
+  padding: 5px 16px;
+}
+
+.widget p {
+  font-size: 15px;
+  padding: 8px 20px 36px 20px;
+  line-height: 1.2rem;
+}
+
+/* - bg-light: hsl(212, 45%, 89%)
+- p-light: hsl(220, 15%, 55%)
+- header: hsl(218, 44%, 22%) */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
